@@ -35,5 +35,5 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
-  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.ignoreTrimWhitespace": false
 }
