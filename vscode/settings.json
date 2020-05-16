@@ -18,6 +18,7 @@
   "files.insertFinalNewline": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   /* GIT */
+  "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "diffEditor.ignoreTrimWhitespace": false,
