@@ -6,10 +6,24 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+  /* Formatting */
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
   /* Explorer */
   "explorer.openEditors.visible": 0,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+  /* Window */
+  "window.restoreWindows": "none",
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
   /* Workbench */
   "workbench.iconTheme": "vscode-icons",
   "workbench.activityBar.visible": false,
@@ -22,15 +36,4 @@
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  /* Formatting */
-  "editor.tabSize": 2,
-  "editor.detectIndentation": false,
-  "editor.formatOnSave": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  }
 }
