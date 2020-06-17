@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Nermin Skenderovic
+	email = nermin@skenderovic.se
+[alias]
+	hobbyprofile = config --global user.email nermin@skenderovic.se
+	schoolprofile = config --global user.email nermins@student.chalmers.se
+	workprofile = config --global user.email nermin.skenderovic@schibsted.com
