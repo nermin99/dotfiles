@@ -1,0 +1,24 @@
+// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+{
+  "Print to console": {
+    "prefix": "log",
+    "body": [
+      "console.log($0)"
+    ],
+    "description": "Log to Console"
+  },
+  "Print object to console": {
+    "prefix": "dir",
+    "body": [
+      "console.dir($0)"
+    ],
+    "description": "Log as object to Console"
+  },
+  "Print table to console": {
+    "prefix": "table",
+    "body": [
+      "console.table($0)"
+    ],
+    "description": "Log as table to Console"
+  }
+}
