@@ -12,10 +12,10 @@
   "editor.formatOnSave": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   /* Explorer */
   "explorer.openEditors.visible": 0,
@@ -36,4 +36,5 @@
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "diffEditor.ignoreTrimWhitespace": false
+  /* random */
 }
