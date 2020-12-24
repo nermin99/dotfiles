@@ -34,6 +34,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.activityBar.visible": false,
   /* Files */
+  "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
