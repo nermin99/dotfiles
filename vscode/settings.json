@@ -6,6 +6,7 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
   /* Formatting */
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
@@ -17,6 +18,11 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  /* Prettier */
+  "prettier.arrowParens": "always",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
   /* Explorer */
   "explorer.openEditors.visible": 0,
   "explorer.confirmDelete": false,
@@ -25,16 +31,19 @@
   "window.restoreWindows": "none",
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
   /* Workbench */
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.activityBar.visible": false,
   /* Files */
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   /* GIT */
+  "git.autoStash": true,
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  /* Windows 10 */
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
   /* random */
 }
