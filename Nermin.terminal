@@ -95,7 +95,7 @@
 	<key>ShowActiveProcessInTitle</key>
 	<false/>
 	<key>columnCount</key>
-	<integer>95</integer>
+	<integer>90</integer>
 	<key>name</key>
 	<string>Nermin</string>
 	<key>rowCount</key>
