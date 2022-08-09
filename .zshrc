@@ -102,3 +102,4 @@ alias nlg="npm list -g --depth 0"
 
 alias pip=pip3
 alias python=python3
+alias pip-install="python -m pip install"
