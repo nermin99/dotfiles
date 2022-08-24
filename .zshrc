@@ -103,3 +103,9 @@ alias nlg="npm list -g --depth 0"
 alias pip=pip3
 alias python=python3
 alias pip-install="python -m pip install"
+
+# fnm "fast node manager"
+eval "$(fnm env)"
+# fnm
+export PATH=/Users/nermin/.fnm:$PATH
+eval "`fnm env`"

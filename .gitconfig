@@ -1,17 +1,21 @@
 # This is Git's per-user configuration file.
 # The email adress is dynamically updated depending on the directory you're in.
 [user]
-	name = Nermin Skenderovic
-	email = nermin@skenderovic.se
+  name = Nermin Skenderovic
+  email = nermin@skenderovic.se
 
 [includeIf "gitdir:~/dev/hobby/"]
-	path = ~/dev/hobby/.gitconfig
+  path = ~/dev/hobby/.gitconfig
 
 [includeIf "gitdir:~/dev/chalmers/"]
-	path = ~/dev/chalmers/.gitconfig
+  path = ~/dev/chalmers/.gitconfig
 
 [includeIf "gitdir:~/dev/prisjakt/"]
-	path = ~/dev/prisjakt/.gitconfig
+  path = ~/dev/prisjakt/.gitconfig
 
 [pull]
-	rebase = true
+  rebase = true
+[init]
+  defaultBranch = master
+[core]
+  ignorecase = false
