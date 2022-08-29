@@ -8,6 +8,7 @@
    - `dev` - folder
    - `.gitconfig`
    - `.zshrc`
+1. Install [HomeBrew](https://brew.sh/)
 1. Install [Fast Node Manager](https://github.com/Schniz/fnm)
 1. Install [Fira Code](https://github.com/tonsky/FiraCode)
 1. Download & Import `Nermin.terminal`
