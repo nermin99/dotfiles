@@ -10,9 +10,6 @@
 [includeIf "gitdir:~/dev/chalmers/"]
   path = ~/dev/chalmers/.gitconfig
 
-[includeIf "gitdir:~/dev/prisjakt/"]
-  path = ~/dev/prisjakt/.gitconfig
-
 [pull]
   rebase = true
 [init]
