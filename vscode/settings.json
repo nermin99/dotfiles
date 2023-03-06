@@ -1,0 +1,122 @@
+{
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.rulers": [80, 95],
+  "editor.minimap.enabled": false,
+  "editor.hideCursorInOverviewRuler": false,
+  "workbench.colorCustomizations": {
+    "editorOverviewRuler.infoForeground": "#fff0" // hide spell checker infos
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // suggestions
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "enabled",
+  /* Formatting */
+  "editor.tabSize": 2,
+  // Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.arrowParens": "always",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.printWidth": 95,
+  // html
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  // Python
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.languageServer": "Pylance",
+  // Markdown Lint
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  },
+  "markdownlint.config": {
+    "MD005": false,
+    "MD007": { "indent": 4 },
+    "MD024": false
+  },
+  /* Explorer */
+  "explorer.openEditors.visible": 0,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  /* Window */
+  "window.restoreWindows": "none",
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  /* Workbench */
+  "workbench.iconTheme": "material-icon-theme",
+  /* Files */
+  "terminal.integrated.fontSize": 13,
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  /* GIT */
+  "git.autoStash": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  /* cSpell */
+  "cSpell.language": "en-GB",
+  "cSpell.userWords": ["dialog", "Nermin", "prisjakt", "Skenderovic"],
+  /* Color Highlight*/
+  "color-highlight.markRuler": false,
+  /* Windows 10 */
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "*.mlx": "default"
+  },
+  "jupyter.interactiveWindowMode": "perFile",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "jupyter.askForKernelRestart": false,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "git.ignoreLegacyWarning": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true,
+    "c": true
+  },
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "security.workspace.trust.untrustedFiles": "open",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "gitlens.advanced.messages": {
+    "suppressGitVersionWarning": true
+  },
+  "git.ignoreRebaseWarning": true,
+  "remote.SSH.enableAgentForwarding": true,
+  "editor.formatOnSave": true,
+  "workbench.activityBar.visible": false
+}
