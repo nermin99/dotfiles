@@ -1,0 +1,14 @@
+# Global .gitconfig
+
+[user]
+    name = Nermin Skenderovic
+    email = nermin@work.se
+
+# Email and active ssh key is dynamically updated depending on the directory you're in.
+[includeIf "gitdir:~/code/nermin99/"]
+    path = ~/code/nermin99/.gitconfig
+
+[pull]
+    rebase = true
+[core]
+    ignorecase = false

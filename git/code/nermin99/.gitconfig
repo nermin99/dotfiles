@@ -1,0 +1,7 @@
+# Use personal email inside this directory
+[user]
+    email = nermin@skenderovic.se
+
+# Use personal ssh key inside this directory
+[url "git@github-personal:"]
+    insteadOf = git@github.com:
